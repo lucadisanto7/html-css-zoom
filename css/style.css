@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    max-width: 1610px;
+}
+.margin-zero{
+    margin: 0 auto;
+}
 header{
     background-color: black;
     height: 100px;
@@ -18,14 +24,37 @@ header{
     display: flex;
     justify-content: end;
 }
-.label{
+.white-text{
     color: white;
+}
+.label{
     padding: 5px 5px;
     border-radius: 4px;
     margin: 10px 5px 0px 5px;
     font-size: 15px
-    
 }
 .bg-grey{
     background-color: rgb(90, 90, 90);
+}
+main{
+    background-color: black;
+    height: 100vh;
+}
+.col-14{
+    width: calc(100% / 7);
+    margin-bottom: 10px;
+}
+.main-content{
+    position: relative;
+}
+.username{
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    left: 0px;
+}
+.bg-lightblack{
+    background-color: rgba(0, 0, 0, 0.336);
+    padding: 7px 7px;
+    font-size: 15px;
 }
