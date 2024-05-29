@@ -45,7 +45,7 @@ header{
 }
 main{
     background-color: black;
-    height: 100vh
+    height: 100vh;
 }
 .col-14{
     width: calc(100% / 7);
