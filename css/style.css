@@ -109,4 +109,14 @@ footer {
 .green{
     color: green;
 }
-
+.col-20-right{
+    width: 20%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+.end-meeting{
+    color: red;
+    background-color: #6d6d6d3d;
+    padding: 20px;
+}
