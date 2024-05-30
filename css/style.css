@@ -33,6 +33,9 @@ header{
     display: flex;
     justify-content: end;
 }
+.label i{
+    vertical-align: middle;
+}
 .white-text{
     color: white;
 }
