@@ -59,6 +59,9 @@ main{
     height: calc(100vh - 140px);
     overflow-y: auto;
 }
+.col-wrapper{
+    max-width: 33%;
+}
 .col-14 {
     flex-basis: calc(100% / 7 - 20px);
     margin: 10px;
