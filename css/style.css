@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    overflow: hidden;
 }
 .container{
     max-width: 1700px;
@@ -19,6 +20,7 @@ img{
 header{
     background-color: black;
     padding-bottom: 50px;
+    height: 40px;
 }
 .row{
     display: flex;
@@ -30,11 +32,6 @@ header{
 .label-container{
     display: flex;
     justify-content: end;
-    position: fixed;
-    width: 100%;
-    z-index: 4;
-    top: 0;
-    right: 0;
 }
 .white-text{
     color: white;
@@ -50,7 +47,8 @@ header{
 }
 main{
     background-color: black;
-    height: 100vh;
+    height: calc(100vh - 120px);
+    overflow-y: auto;
 }
 .col-14{
     width: calc(100% / 7);
@@ -72,12 +70,10 @@ main{
     font-size: 1.5vh;
 }
 footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
     background-color: #2b2b2b;
     padding: 10px 0;
-    z-index: 1;
+    height: 80px;
 }
 .toolbar {
     display: flex;
