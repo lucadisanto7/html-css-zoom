@@ -52,11 +52,10 @@ main{
 }
 .col-14{
     width: calc(100% / 7);
-    margin-bottom: 10px;
-    padding-bottom: 5px;
 }
 .main-content{
     position: relative;
+    margin-bottom: 10px;
 }
 .username{
     position: absolute;
