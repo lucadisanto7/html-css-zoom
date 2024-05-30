@@ -84,13 +84,7 @@ footer {
     width: 100%;
 }
 .toolbar-container{
-    display: flex;
     align-items: center;
-}
-.col-20-left {
-    width: 20%;
-    display: flex;
-    justify-content: flex-start;
 }
 .toolbar-item {
     display: flex;
@@ -103,20 +97,25 @@ footer {
     font-size: 3vh;
     margin-bottom: 5px;
 }
+.col-20-left {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+}
 .col-60{
     width: 60%;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
-.green{
-    color: green;
-}
 .col-20-right{
     width: 20%;
     justify-content: flex-end;
     display: flex;
     align-items: center;
+}
+.green{
+    color: green;
 }
 .end-meeting{
     color: red;
